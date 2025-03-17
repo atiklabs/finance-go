@@ -376,6 +376,9 @@ func (s *BackendConfiguration) do(req *http.Request, v interface{}) error {
 
 	start := time.Now()
 
+	// added
+	req.Header.Set("User-Agent", "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36")
+
 	res, err := s.HTTPClient.Do(req)
 
 	if LogLevel > 2 {
