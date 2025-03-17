@@ -3,17 +3,17 @@ package main
 import (
 	"fmt"
 
-	"github.com/piquette/finance-go/chart"
-	"github.com/piquette/finance-go/crypto"
-	"github.com/piquette/finance-go/datetime"
-	"github.com/piquette/finance-go/equity"
-	"github.com/piquette/finance-go/etf"
-	"github.com/piquette/finance-go/forex"
-	"github.com/piquette/finance-go/future"
-	"github.com/piquette/finance-go/index"
-	"github.com/piquette/finance-go/mutualfund"
-	"github.com/piquette/finance-go/options"
-	"github.com/piquette/finance-go/quote"
+	"github.com/atiklabs/finance-go/chart"
+	"github.com/atiklabs/finance-go/crypto"
+	"github.com/atiklabs/finance-go/datetime"
+	"github.com/atiklabs/finance-go/equity"
+	"github.com/atiklabs/finance-go/etf"
+	"github.com/atiklabs/finance-go/forex"
+	"github.com/atiklabs/finance-go/future"
+	"github.com/atiklabs/finance-go/index"
+	"github.com/atiklabs/finance-go/mutualfund"
+	"github.com/atiklabs/finance-go/options"
+	"github.com/atiklabs/finance-go/quote"
 )
 
 // This file lists several usage examples of this library

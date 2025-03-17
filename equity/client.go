@@ -4,9 +4,9 @@ import (
 	"context"
 	"strings"
 
-	finance "github.com/piquette/finance-go"
-	form "github.com/piquette/finance-go/form"
-	"github.com/piquette/finance-go/iter"
+	finance "github.com/atiklabs/finance-go"
+	form "github.com/atiklabs/finance-go/form"
+	"github.com/atiklabs/finance-go/iter"
 )
 
 // Client is used to invoke quote APIs.
